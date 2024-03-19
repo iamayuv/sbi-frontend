@@ -1,0 +1,86 @@
+body {
+    -webkit-tap-highlight-color: transparent;
+    text-size-adjust: 100%;
+    font-style: var(--text-font-style);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    color: rgb(var(--text-color));
+    font-family: Metropolis!important;
+}
+
+.container-fluid {
+    --container-max-width: 100%;
+    --container-max-width-minus-gutters: calc(var(--container-max-width) - (var(--container-gutter)) * 2);
+    --container-outer-width: max(calc((100vw - var(--container-max-width-minus-gutters)) / 2), var(--container-gutter));
+    --container-inner-width: calc(100vw - var(--container-outer-width) * 2);
+    max-width: var(--container-max-width);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    padding-right: var(--container-gutter);
+    padding-left: var(--container-gutter);
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #000000;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(var(--text-color));
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Change the color to your preferred hover color */
+}
+
+.d-flex {
+    display: flex;
+}
+
+.ms-auto {
+    margin-left: auto;
+}
+
+.form-control {
+    height: var(--form-input-field-height);
+}
+
+.btn {
+    height: var(--button-height);
+}
+
+/* Add more styles as needed */
+
+.container-outer-margin {
+    margin: 0px;
+}
+
+.border-radius {
+    border-radius: 10px;
+}
+
+.bg-color {
+    background-color: yellow;
+}
+
+.border-color {
+    border-color: red;
+}
+
+/* Add more custom styles as needed */
